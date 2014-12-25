@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Component.h" />
-    <ClInclude Include="ComponentManager.h" />
+    <ClInclude Include="ManagedComponent.h" />
     <ClInclude Include="Exceptions.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Space.h" />

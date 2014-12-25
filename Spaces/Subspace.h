@@ -98,7 +98,7 @@ public:
 		if (hasComponent<CompType>(objid))
 			return *static_cast<CompType*>(_components.at(ComponentID::getID<CompType>()).at(objid));
 		else
-			retu
+			return CompType() : Component(false);
 			//return *static_cast<CompType*>(_components[ComponentID::getID<CompType>()][objid]);
 	}
 
